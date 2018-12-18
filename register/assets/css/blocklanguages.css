@@ -1,0 +1,101 @@
+/* line 4, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top {
+  float: right;
+  position: relative;
+  margin: 11px 20px 11px 0;
+  padding-right: 10px;
+  border-right: 1px solid #cbcbcb;
+}
+@media (max-width: 767px) {
+  /* line 4, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+  #languages-block-top {
+    display: inline-block;
+    float: none;
+    border-right: none;
+    margin: 11px 0;
+    padding: 0;
+  }
+}
+/* line 17, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top span.firstWord {
+  display: none;
+}
+/* line 20, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current {
+  padding: 0 10px;
+  color: #333;
+  cursor: pointer;
+}
+/* line 24, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current:hover, #languages-block-top div.current.active {
+  color: #246ab1;
+}
+/* line 27, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+/*#languages-block-top div.current:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  font-size: 16px;
+  line-height: 21px;
+  vertical-align: -1px;
+  padding-left: 5px;
+  color: #000;
+}*/
+@media (max-width: 480px) {
+  /* line 36, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+  #languages-block-top div.current .cur-label {
+    display: none;
+  }
+}
+/* line 43, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current.active:after {
+  content: "\f106";
+}
+/* line 48, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top ul {
+  display: none;
+  position: absolute;
+  top: 32px;
+  right: 0;
+  width: 157px;
+  padding: 10px 0;
+  background: #ffffff;
+  z-index: 20;
+  margin: 0;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+@media (max-width: 480px) {
+  /* line 48, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+  #languages-block-top ul {
+    width: 130px;
+  }
+}
+/* line 63, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top ul li {
+  line-height: 25px;
+}
+/* line 66, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top ul li a,
+#languages-block-top ul li > span {
+  padding: 0 15px;
+  display: block;
+  color: #333;
+}
+@media (max-width: 767px) {
+  /* line 66, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+  #languages-block-top ul li a,
+  #languages-block-top ul li > span {
+    font-size: 12px;
+  }
+}
+/* line 74, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top ul li.selected span, #languages-block-top ul li:hover a {
+  color: #246ab1;
+}
+
+@media (max-width: 767px) {
+  /* line 80, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+  .current > span {
+    font-size: 12px;
+  }
+}

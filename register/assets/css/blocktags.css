@@ -1,0 +1,22 @@
+/* line 4, ../../../sass/modules/blocktags/blocktags.scss */
+.tags_block .block_content {
+  overflow: hidden;
+}
+/* line 7, ../../../sass/modules/blocktags/blocktags.scss */
+.tags_block .block_content a {
+  background: #f7f7f7 none repeat scroll 0 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  padding: 5px 10px;
+  border: none;
+  float: left;
+  margin: 7px 12px 3px 0;
+  text-transform: capitalize;
+}
+/* line 18, ../../../sass/modules/blocktags/blocktags.scss */
+.tags_block .block_content a:hover {
+  color: #fff;
+  background: #f02640;
+}

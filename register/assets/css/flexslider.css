@@ -1,0 +1,279 @@
+/* Browser Res505
+*********************************/
+/* line 10, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+  outline: none;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+/* line 15, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+/* line 23, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+/* line 28, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .slides {
+  padding: 0;
+  margin: 0;
+}
+/* line 31, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .slides img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+/* line 38, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 48, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 47%;
+  width: 100%;
+}
+/* line 54, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .flex-direction-nav a {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0;
+  height: 45px;
+  position: absolute;
+  width: 45px;
+  z-index: 4;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+  transition: all 0.3s ease 0s;
+}
+/* line 65, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .flex-direction-nav a.flex-prev {
+  opacity: 0;
+  left: 10px;
+}
+/* line 68, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .flex-direction-nav a.flex-prev:before {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-size: 28px;
+  vertical-align: bottom;
+  display: inline-block;
+  padding: 11px 15px;
+  color: #fff;
+}
+/* line 77, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .flex-direction-nav a.flex-prev:hover {
+  background-color: #246ab1;
+}
+/* line 81, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .flex-direction-nav a.flex-next {
+  opacity: 0;
+  right: 10px;
+}
+/* line 84, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .flex-direction-nav a.flex-next:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 28px;
+  vertical-align: bottom;
+  display: inline-block;
+  padding: 11px 19px;
+  color: #fff;
+}
+/* line 93, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider .flex-direction-nav a.flex-next:hover {
+  background-color: #246ab1;
+}
+
+/* line 102, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flexslider:hover .flex-direction-nav a.flex-prev, .flexslider:hover .flex-direction-nav a.flex-next {
+  opacity: 1;
+}
+
+/* Clearfix for the .slides element */
+/* line 107, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+html[xmlns] .slides {
+  display: block;
+}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+/* line 112, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.no-js .slides > li:first-child {
+  display: block;
+}
+
+/* FlexSlider Default Theme
+*********************************/
+/* line 116, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 117, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.loading .flex-viewport {
+  max-height: 300px;
+}
+
+/* line 118, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.carousel li {
+  margin-right: 5px;
+}
+
+/* Direction Nav */
+/* line 122, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-direction-nav .flex-disabled {
+  opacity: 0!important;
+  filter: alpha(opacity=0);
+  cursor: default;
+}
+
+/* Pause/Play */
+/* line 128, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+/* line 129, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  /* Netscape */
+  -khtml-opacity: 0.8;
+  /* Safari 1.x */
+  -webkit-opacity: 0.8;
+  /* other webkit*/
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+/* line 145, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-pauseplay a.flex-play:before {
+  content: '\f003';
+}
+
+/* Control Nav */
+/* line 151, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-nav {
+  bottom: 0px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+}
+@media (max-width: 767px) {
+  /* line 151, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+  .flex-control-nav {
+    display: none;
+  }
+}
+/* line 160, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-nav li {
+  display: inline-block;
+  margin: 0 1px;
+}
+/* line 163, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-nav li a {
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  float: left;
+  display: block;
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  transition: all 0.3s ease 0s;
+  margin-right: 5px;
+  margin-top: 0;
+  position: relative;
+  text-indent: -9999px;
+  border: 1px solid #246ab1;
+}
+/* line 178, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-nav li a.flex-active, .flex-control-nav li a:hover {
+  background: #246ab1 none repeat scroll 0 0;
+}
+
+/* line 183, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+/* line 187, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  -moz-opacity: 1;
+  /* Netscape */
+  -khtml-opacity: 1;
+  /* Safari 1.x */
+  -webkit-opacity: 1;
+  /* other webkit*/
+  cursor: default;
+}
+/* line 194, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+/* line 199, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-thumbs img {
+  width: 100%;
+  display: block;
+  opacity: .7;
+  -moz-opacity: .7;
+  /* Netscape */
+  -khtml-opacity: .7;
+  /* Safari 1.x */
+  -webkit-opacity: .7;
+  /* other webkit*/
+  cursor: pointer;
+}
+/* line 207, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.flex-control-thumbs img:hover {
+  opacity: 1;
+  -moz-opacity: 1;
+  /* Netscape */
+  -khtml-opacity: 1;
+  /* Safari 1.x */
+  -webkit-opacity: 1;
+  /* other webkit*/
+}
+
+/* line 216, ../../../../sass/modules/tmhomeslider/css/flexslider.scss */
+.spinner {
+  min-height: 822px;
+  background: url("../../../../img/megnor/loading.gif") no-repeat center center white;
+  width: 100%;
+  margin-top: 8px;
+}

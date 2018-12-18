@@ -1,0 +1,68 @@
+/* line 3, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info {
+  float: left;
+}
+@media (max-width: 767px) {
+  /* line 3, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 3, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* line 14, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 17, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info ul li {
+  float: left;
+}
+@media (max-width: 767px) {
+  /* line 17, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info ul li {
+    float: none;
+    display: inline-block;
+  }
+}
+@media (max-width: 480px) {
+  /* line 17, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info ul li {
+    width: auto;
+    float: none;
+    display: inline-block;
+  }
+}
+/* line 29, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info ul li a {
+  color: #333;
+  font-weight: 400;
+  display: block;
+  padding: 12px 10px 10px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  /* line 29, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info ul li a {
+    padding: 12px 6px 10px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 29, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info ul li a {
+    padding: 12px 6px 0;
+  }
+}
+/* line 43, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info ul li a:hover, .header_user_info ul li a.active {
+  color: #246ab1;
+}

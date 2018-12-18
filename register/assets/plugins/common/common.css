@@ -1,0 +1,282 @@
+/* padding classes */
+.margin-padding-0{
+    margin: 0;
+    padding: 0;
+}
+
+.padding-0{
+    padding: 0px !important;
+}
+
+
+.no-padding{
+    padding: 0px;
+}
+.padding-10{
+    padding: 10px;
+}
+
+.padding-top-0{
+    padding-top: 0px !important;
+}
+.padding-top-20{
+    padding-top: 20px !important;
+}
+/* padding classes */
+
+/* margin classes */
+.margin-0{
+    margin: 0px !important;
+}
+.margin-left-0{
+    margin-left: 0px !important;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-top-40{
+    margin-top: 40px;
+}
+
+.margin-top-80{
+    margin-top: 80px;
+}
+.margin-bottom-20{
+    margin-bottom: 20px !important;
+}
+
+.margin-bottom-25{
+    margin-bottom: 25px;
+}
+/* margin classes */
+
+
+/* font size classes */
+.font-size-2{
+    font-size: 2px !important;
+}
+.font-size-9{
+    font-size: 9px !important;
+}
+.font-size-12{
+    font-size: 12px !important;
+}
+
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-35{
+    font-size: 35px;
+}
+.font-size-56{
+    font-size: 56px;
+}
+/* font size classes */
+
+.line-height-22{
+    line-height: 22px;
+}
+
+.pull-none{
+    float: none !important;
+}
+
+/* color classes */
+.color-white{
+    color: #fff;
+}
+.color-blue{
+    color: dodgerblue !important;
+}
+.color-lochmara{
+    color: #0c83be !important;
+}
+.color-picton-blue{
+    color: #22A7F0 !important;
+}
+.color-red{
+    color: red !important;
+}
+.color-green{
+    color: green !important;
+}
+.color-limegreen{
+    color: #39b54a !important;
+}
+.color-jungle-green{
+    color: #2ABB9B !important;
+}
+.color-grey, .color-gray{
+    color: #838490 !important;
+}
+.color-gray2{
+    color: #646464 !important;
+}
+.color-black{
+    color: #000;
+}
+/* color classes */
+
+.text-center{
+    text-align: center !important;
+}
+.text-left{
+    text-align: left !important;
+}
+.text-right{
+    text-align: right !important;
+}
+
+.full-width{
+    width: 100% !important;
+}
+
+#overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    z-index: 99;
+}
+
+#overlay img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px; /* Half the height */
+    margin-left: -25px; /* Half the width */
+}
+
+
+
+.float_right{
+    float: right;
+}
+
+.float_left{
+    float: left;
+}
+
+.imgResponsive{
+    width: 100%;
+    height: 100%;
+}
+
+.errorMsg{
+    color: red;
+}
+input.errorMsg{
+    border-color: red;
+}
+
+.position-absolute{
+    position: absolute !important;
+}
+
+.ui-datepicker select{
+    padding: 0;
+    display: inline;
+    border: none;
+}
+
+.blinker{
+    animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+
+/*@keyframes blinker {
+    80%{ color: #000;}
+    !*80% { opacity: 0.0; }*!
+}*/
+
+@keyframes blinker { to { opacity: 0; } }
+
+
+.parallaxBg{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.vertical-align-sub{
+    vertical-align: sub;
+}
+.vertical-align-middle{
+    vertical-align: middle !important;
+}
+
+.align-middle {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.legendColorBox{
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.border-left{
+    border-left:1px inset;
+}
+.border-right{
+    border-right:1px inset;
+}
+
+@media(min-width:767px) {
+    .border-right-sm{
+        border-right: 1px inset;
+    }
+}
+
+
+
+
+.font-family-roboto{
+    font-family: Roboto;
+}
+
+.tickLabel { font-size: 120% }
+
+.no-resize{
+    resize: none;
+}

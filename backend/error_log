@@ -1,0 +1,25 @@
+[05-Nov-2016 02:10:55 UTC] PHP Fatal error:  Class 'Url' not found in /home/naveengarg12/public_html/_protected/backend/views/special-session/index.php on line 38
+[22-Nov-2016 06:53:52 UTC] PHP Fatal error:  Class 'backend\controllers\BackendController' not found in /home/naveengarg12/public_html/_protected/backend/controllers/BackendController.php on line 20
+[22-Nov-2016 06:53:54 UTC] PHP Fatal error:  Class 'backend\controllers\BackendController' not found in /home/naveengarg12/public_html/_protected/backend/controllers/BackendController.php on line 20
+[22-Nov-2016 06:53:57 UTC] PHP Fatal error:  Class 'backend\controllers\BackendController' not found in /home/naveengarg12/public_html/_protected/backend/controllers/BackendController.php on line 20
+[29-Nov-2016 10:22:44 UTC] PHP Fatal error:  Class 'backend\controllers\Response' not found in /home/naveengarg12/public_html/_protected/backend/controllers/SliderImagesController.php on line 266
+[29-Nov-2016 10:23:22 UTC] PHP Fatal error:  Class 'backend\controllers\Response' not found in /home/naveengarg12/public_html/_protected/backend/controllers/SliderImagesController.php on line 266
+[01-Dec-2016 11:57:52 UTC] PHP Fatal error:  Uncaught exception 'yii\base\InvalidConfigException' with message 'The "id" configuration for the Application is required.' in /home/naveengarg12/public_html/_protected/vendor/yiisoft/yii2/base/Application.php:220
+Stack trace:
+#0 /home/naveengarg12/public_html/_protected/vendor/yiisoft/yii2/base/Application.php(202): yii\base\Application->preInit(Array)
+#1 /home/naveengarg12/public_html/backend/index.php(17): yii\base\Application->__construct(Array)
+#2 {main}
+  thrown in /home/naveengarg12/public_html/_protected/vendor/yiisoft/yii2/base/Application.php on line 220
+[29-Dec-2016 13:57:06 UTC] PHP Fatal error:  Class 'backend\controllers\Papers1Search' not found in /home/naveengarg12/public_html/_protected/backend/controllers/PapersController.php on line 30
+[29-Dec-2016 13:57:09 UTC] PHP Fatal error:  Class 'backend\controllers\Papers1Search' not found in /home/naveengarg12/public_html/_protected/backend/controllers/PapersController.php on line 30
+[18-Jan-2017 15:13:29 UTC] PHP Fatal error:  Class 'common\config\Url' not found in /home/naveengarg12/public_html/_protected/common/config/settings.php on line 65
+[18-Jan-2017 15:13:31 UTC] PHP Fatal error:  Class 'common\config\Url' not found in /home/naveengarg12/public_html/_protected/common/config/settings.php on line 65
+[25-Mar-2017 08:23:56 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/ijltes3e/public_html/iresconf.org/backend/themes/admin/views/layouts/left.php on line 11
+[25-Mar-2017 08:24:06 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/ijltes3e/public_html/iresconf.org/backend/themes/admin/views/layouts/left.php on line 11
+[27-Apr-2017 08:24:17 Etc/GMT] PHP Fatal error:  Class 'common\models\FeesSearch' not found in /home/ijltes3e/public_html/iresconf.org/_protected/backend/controllers/FeeController.php on line 38
+[27-Apr-2017 15:51:28 Etc/GMT] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ijltes3e/public_html/iresconf.org/_protected/common/models/FeesSearch.php on line 44
+[27-Apr-2017 16:04:38 Etc/GMT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ijltes3e/public_html/iresconf.org/_protected/backend/views/fee/index.php on line 124
+[27-Apr-2017 16:05:22 Etc/GMT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ijltes3e/public_html/iresconf.org/_protected/backend/views/fee/index.php on line 124
+[27-Apr-2017 16:05:47 Etc/GMT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ijltes3e/public_html/iresconf.org/_protected/backend/views/fee/index.php on line 124
+[27-Apr-2017 16:08:20 Etc/GMT] PHP Parse error:  syntax error, unexpected ''width:60px;letter-spacing:5px' (T_ENCAPSED_AND_WHITESPACE) in /home/ijltes3e/public_html/iresconf.org/_protected/backend/views/fee/index.php on line 127
+[04-Jun-2017 01:26:06 Etc/GMT] PHP Parse error:  syntax error, unexpected 'B' (T_STRING) in /home/ijltes3e/public_html/iresconf.org/_protected/backend/views/fee/index.php on line 16

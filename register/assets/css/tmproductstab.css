@@ -1,0 +1,13 @@
+#tmproductstab .tabs > li {
+    display: inline-block;
+    padding: 5px;
+}
+
+#tmproductstab .tabs > li a {
+	font-size: 13px;
+	cursor: pointer;
+}
+
+#tmproductstab .tabs > li a.active, #tmproductstab .tabs > li a:hover {
+	font-weight: bold;
+}

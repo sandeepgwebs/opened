@@ -1,0 +1,142 @@
+/********************************************************
+			Megnor Custom Styles
+********************************************************/
+/* line 9, ../../sass/megnor/custom.scss */
+.tm-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  -ms-touch-action: pan-y;
+}
+/* line 16, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+/* line 22, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 30, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+/* line 36, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+/* line 44, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-item {
+  float: left;
+}
+/* line 48, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-item .manu_image a {
+  display: inline-block;
+}
+/* line 50, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-item .manu_image a img {
+  width: 100%;
+}
+/* line 57, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-item:hover a img {
+  border-color: blue;
+}
+/* line 63, ../../sass/megnor/custom.scss */
+.tm-carousel .owl-wrapper,
+.tm-carousel .owl-item {
+  /* fix */
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  text-align: center;
+}
+
+/* mouse grab icon */
+/* line 79, ../../sass/megnor/custom.scss */
+.grabbing {
+  cursor: url("../../img/megnor/grabbing.png") 8 8, move;
+}
+
+/* line 85, ../../sass/megnor/custom.scss */
+.customNavigation {
+  position: relative;
+  top: 0px;
+  right: 0;
+  margin: 0;
+  text-align: right;
+  direction: ltr !important;
+  position: absolute;
+  float: right;
+}
+/* line 94, ../../sass/megnor/custom.scss */
+.customNavigation a.prev {
+  color: #a3a3a3;
+}
+/* line 96, ../../sass/megnor/custom.scss */
+.customNavigation a.prev:before {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-size: 25px;
+  vertical-align: -5px;
+}
+/* line 103, ../../sass/megnor/custom.scss */
+.customNavigation a.prev:hover {
+  color: #333;
+}
+/* line 107, ../../sass/megnor/custom.scss */
+.customNavigation a.next {
+  color: #a3a3a3;
+}
+/* line 109, ../../sass/megnor/custom.scss */
+.customNavigation a.next:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 25px;
+  vertical-align: -5px;
+}
+/* line 116, ../../sass/megnor/custom.scss */
+.customNavigation a.next:hover {
+  color: #333;
+}
+/* line 122, ../../sass/megnor/custom.scss */
+.customNavigation a:hover {
+  color: #333;
+}
+/* line 126, ../../sass/megnor/custom.scss */
+.customNavigation a:hover i {
+  color: white;
+}
+
+/* line 133, ../../sass/megnor/custom.scss */
+#views_block .customNavigation a.thumbs_list_prev {
+  left: 0;
+  right: auto;
+  top: 10px;
+}
+
+/* line 136, ../../sass/megnor/custom.scss */
+#views_block .customNavigation a.thumbs_list_next {
+  right: 0;
+  top: 10px;
+}
+
+/* line 139, ../../sass/megnor/custom.scss */
+#tm-tabcontent .tab-content #datasheet {
+  margin: 0;
+}
