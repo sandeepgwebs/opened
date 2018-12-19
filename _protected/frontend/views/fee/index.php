@@ -116,7 +116,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                             'attribute' => 'pfile',
                                             'label' => 'File',
                                             'value' => function ($model) {
-                                                return Html::a('<span class="glyphicon glyphicon-download"></span>',['submission-download', 'id' => $model->id],
+                                                return Html::a('<i class="fa fa-download" aria-hidden="true"></i>',['submission-download', 'id' => $model->id],
                                                     [
                                                         'title' => 'Download',
                                                         'data-pjax' => '0',
@@ -158,6 +158,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                         [
                                             'class' => 'yii\grid\ActionColumn','header'=>'Actions',
                                             'template' => '{view}', 'contentOptions' => ['style' => 'width:60px;letter-spacing:5px;text-align:center'],
+
                                         ],
 
                                     ],

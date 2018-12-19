@@ -1788,11 +1788,11 @@ section h3.section-subheading {
      padding: 0 15px;
  }
 .sponsor span {
-    background: #0088bf none repeat scroll 0 0;
-    color: #fff;
+    background: #8ab92d;
+    color: rgb(255, 255, 255);
     display: inline-block;
     font-size: 17px;
-    margin: 5px 0 16px;
+    margin: 11px 0 12px;
     padding: 6px 20px;
     position: relative;
     text-align: center;
@@ -2229,7 +2229,10 @@ section h2.section-heading {
     transition: all 0.3s ease 0s;
     width: 100%;
 }
-
+.popup-gallery img {
+    margin: 10px;
+    width: 25%;
+}
 
 
 

@@ -23,13 +23,13 @@ $this->registerJs(
 				});
 			});
 		
-		"	
+		"
 		);	
    ?>
 <div class="col-lg-12 col-md-12 col-xm-12 col-sm-12 gallery">
 	<div class="row">
 		<div class="col-xs-12">
-			<h3>Gallery</h3>
+			<!--h3>Gallery</h3-->
 		</div>
 		<div class="row">
 			<div class="col-sm-12">

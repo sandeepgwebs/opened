@@ -123,3 +123,19 @@ $this->registerMetaTag([
 		</div>
 	</div>
 </section>
+
+<aside class="clients">
+	<div class="container-fluid">
+		<div class="row">
+			<?= Client::widget() ?>
+		</div>
+		<div class="row">
+				<?= Gallerywid::widget(['show' => 4]) ?>
+				<div class="col-lg-12 text-center">
+                   <div class="welcome-box">
+						<?= Html::a('View More', ['site/gallery'], ['class' => 'view-more', 'style' => 'cursor: pointer;']) ?>
+				   </div>
+                </div>
+            </div>
+	</div>
+</aside>
